@@ -256,6 +256,29 @@ form>input::placeholder{
 }
 
 
+@media (min-width: 320) and (max-width:480px){
+    .badgePost{
+        flex-direction: column;
+    }
+    .badgePost>img{
+        width: 95%;
+        height: 40vh;
+    }
+    .badgeContent>span{
+        display: block;
+        text-align: center;
+    }
+    .badgeContent>h1{
+        text-align: center;
+        width: 380px;
+        margin: auto;
+        font-size: 1.7rem;
+    }
+    .blogCardWrapper{
+        grid-template-columns: 1fr;
+    }
+}
+
 
 
 
